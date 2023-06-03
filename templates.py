@@ -20,9 +20,17 @@ list_of_file = [
     "dvc.yaml",
     "params.yaml",
     "requirements.txt",
-    "set.py",
-    "research/trials.ipynb"
-    "data_download.py"
+    "setup.py",
+    "research/trials.ipynb",
+    "data_download.py",
+    "templates/index.html",
+    "static/images/i.txt",
+    "static/js/i.js",
+    "static/css/i.css",
+    "init_setup.sh",
+    "main.py"
+    
+
 ]
 
 for filepath in list_of_file:
