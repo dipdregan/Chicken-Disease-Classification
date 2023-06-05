@@ -18,3 +18,9 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger("cnnClassifierLogger")
+
+# Print log file contents
+with open(log_file_path, 'r') as file:
+    log_contents = file.read()
+    logger.info(log_contents)
+    print(log_contents)
